@@ -1,0 +1,136 @@
+
+
+#navbar .contaner{
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height: 170px;
+}
+#header .contaner{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    height:auto;
+}
+#header{
+    background-position: center;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#header .contaner p{
+    width: auto;
+    
+}
+.editor{
+    text-align: center;
+}
+#entertenment .one{
+    flex-direction: column;
+}
+#entertenment{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#rid{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#cam{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#cam .two{
+    flex-direction: column;
+}
+#last{
+    background-size: cover;
+    height: auto;
+    width: auto;
+    
+}
+#last .last{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+/*--------------------------------------entertenment------------------------*/
+#main .one img{
+    max-width: 100%;
+}
+#main{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+   
+    
+}
+#main .one .one-a{
+    flex-direction: column;
+    align-items: center;
+}
+#main .one .one-a button{
+    width: 30%;
+}
+#main .one p{
+    width: auto;
+}
+#main .two{
+    max-width: 100%;
+    
+}
+#enter-last .enter-last{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/*-----------------------------------------About-----------------------*/
+
+#main-about{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    
+}
+
+
+@media (max-width:768px){
+
+    #main-about{
+        
+        align-items: center;
+    
+        justify-content: center;
+        
+    }
+    #main-about .one{
+        margin-bottom: 20px;
+    }
+    #main-about .about-two{
+        padding-bottom: 60px;
+    }
+
+    #main-about .one p{
+        width: auto;
+    }
+    #main-about .one h1{
+        line-height: 35px;
+    }
+}
+
+
+
+
+
+    
+
+
+
